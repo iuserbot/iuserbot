@@ -1,0 +1,22 @@
+{
+  "name": "UI ",
+  "description": "A",
+  "repository": "https://github.com/iuserbot/iuserbot/",
+  "logo": "https://i.hizliresim.com/60dguns.jpg",
+  "keywords": ["node", "discord", "bot"],
+   "stack": "container",
+  
+  "env": {
+    "token": {
+      "description": "Bot tokeni nasıl alındığını bilmiyorsanız kurulum videosunu izleyin.",
+      "required": "true"
+    },
+   }
+  },
+    "addons": [{
+      "plan": "heroku-postgresql"
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      }]
+  }
