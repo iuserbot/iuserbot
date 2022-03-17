@@ -1,0 +1,7 @@
+git+https://github.com/dolfies/discord.py-self
+os
+pyfiglet
+time
+sys
+os
+datetime
